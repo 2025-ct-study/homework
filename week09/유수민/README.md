@@ -8,3 +8,6 @@
 
 # BOJ 16234 인구이동
 - bfs
+
+# BOJ 16500 문자열 판별
+- str.compare(index, len, word) 을 사용하자.
