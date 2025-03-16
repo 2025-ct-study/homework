@@ -79,7 +79,6 @@ void dfs(int idx)
         }
 
         dfs(idx + 1);
-        // case 종료이므로 초기화
         for (int i = 0; i < N; i++)
             for (int j = 0; j < M; j++)
                 mmap[i][j] = tmp[i][j];
